@@ -1,4 +1,19 @@
-
+.footer{
+    display:flex;
+    justify-content: space-around;
+}
+.mid{
+    display:flex;
+    justify-content: space-around;
+}
+.contact{
+    display:flex;
+    justify-content: space-around;
+}
+img{
+  height:500px;
+  width:500px;
+}
 
 ul{
   color:black;  
@@ -20,7 +35,8 @@ h1{
     font-size:20px;
 }
 .headshot{
-    width:20%;
+    width:500;
+    height:500;
    
 }
 .mid{
@@ -33,4 +49,9 @@ h1{
 }
 .aboutme{
     border:1px solid black;   
+}
+
+.headshot{
+    border-radius: 100%;
+    
 }
